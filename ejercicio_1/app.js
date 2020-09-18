@@ -3,9 +3,9 @@ const obtenerChiste = require("./library");
 
 // Codigo funcion callback
 
-    Chiste = (element) => element.forEach(element => {
-        console.log(element.setup + element.punchline);
-    }) 
+function Chiste(x){
+ console.log(x[0].setup + x[0].punchline);
+}
 
 // Fin codigo
 
